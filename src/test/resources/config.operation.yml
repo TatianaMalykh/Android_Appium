@@ -1,0 +1,4 @@
+asset: ["EURUSD", "USDJPY", "GBPUSD", "EURCHF", "USDRUB"]
+account: ["Demo account", "Real account", "Tournament account"]
+amount: [""]
+time: [""]

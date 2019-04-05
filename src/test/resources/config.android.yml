@@ -1,0 +1,32 @@
+deviceName: "Android device"
+platformVersion_6: "6.0"
+platformVersion_8: "8.0"
+
+orientation_portrait: "PORTRAIT"
+orientation_landscape: "LANDSCAPE"
+
+language_eng: "eng"
+language_ENG: "ENG"
+
+#setup the path for the application:
+
+apk_siam: D:/Projects/IdeaProjects/APK/siam-debug-2.5.7.apk
+siam: com.siamtrade.mobile
+
+apk_iron: D:/Projects/IdeaProjects/APK/iron-debug-2.5.7.apk
+iron: com.irontrade.broker
+
+
+
+#deviceName: "Samsung Galaxy S5 /phone/"
+#platformVersion: 6.0.1
+#orientation: "PORTRAIT"
+
+#deviceName: "Acer A3-A40 /tablet/"
+#platformVersion: 6.0
+#orientation: "LANDSCAPE"
+
+platformName: Android
+automationName: Appium
+url_driver: http://127.0.0.1:4723/wd/hub
+

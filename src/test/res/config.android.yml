@@ -1,0 +1,31 @@
+#-----------parameters for change-----------
+# version of Android from device:
+platformVersion: 8
+
+# parameter 'language':
+# for android 4.0 - 6.0 is 'eng',
+# for andrioid 7.0 - 8.0 is 'ENG'
+language: "ENG"
+
+
+# LANDSCAPE  or  PORTRAIT:
+orientation: "PORTRAIT"
+
+#setup the path for the application:
+app_location: D:/Projects/IdeaProjects/APK/iron-debug-2.4.2.apk
+app_clear: com.irontrade.broker
+
+#-------------------------------------------
+
+# app_location: D:/Projects/IdeaProjects/APK/siam-debug-2.4.2.apk
+# app_clear: com.siamtrade.mobile
+
+# app_location: D:/Projects/IdeaProjects/APK/iron-debug-2.4.2.apk
+# app_clear: com.irontrade.broker
+
+platformName: Android
+automationName: Appium
+url_driver: http://127.0.0.1:4723/wd/hub
+
+deviceName: "Android device"
+#deviceName: "Google Nexus 6P - 8.0 - API26 - 1440x2560"
